@@ -189,6 +189,7 @@ cv.addEventListener("wheel", e=>{ e.preventDefault();
 // ---- loop ----
 let prev = performance.now();
 (function loop(now){ const dt = Math.min(0.05, (now-prev)/1000); prev = now;
+  if (!W || !H) resize();               // some embedded webviews report 0×0 at script time
   step(dt); draw(); requestAnimationFrame(loop); })(prev);
 </script>
 </body>
