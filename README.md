@@ -23,6 +23,8 @@ Before a single frame renders, **The Brain** decides what deserves to exist. It 
 
 The Brain's provenance graph (viral sources → patterns → identities → fingerprint → ideas → published videos) renders as a live force-directed **Brain Map** — glowing, type-colored, with flow particles feeding the video-creation hub. The image above is its likeness.
 
+🧠 **[Explore the live Brain Map →](https://kenmwara.github.io/maasai-moran-pipeline/brain-map/)** — drag the neurons, pan, zoom; every node is real data from the active fingerprint's research run.
+
 ## 🎬 The production engine (v2)
 
 Every video is manufactured, not generated:
